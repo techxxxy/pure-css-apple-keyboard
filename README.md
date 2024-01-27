@@ -9,6 +9,10 @@ Korean German Keyboards is a simple HTML and CSS project that showcases Korean a
 - Interactive visual representation of Korean and German keyboard layouts.
 - Only click visual effect with no additional feature to input text like a virtual keyboard.
 
-## Installation:
-To run this project locally, simply clone the repository to your local machine:
+## Contributing:
+Contributions to enhance the project, add new features or practice a Pull Request are welcome!
 
+## License:
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Enjoy exploring Techxxxy's Keyboard!
