@@ -1,4 +1,4 @@
-# KorGer Keyboards
+# Korean German Keyboard - Pure HTML and CSS implementation
 
 Korean German Keyboards is a simple HTML and CSS project that showcases Korean and German keyboard layouts without using any images. This provides a realistic visual representation of keyboard layouts for both Korean and German languages, allowing users to understand and familiarize themselves with the arrangement of characters and symbols on the keyboard.
 
