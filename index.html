@@ -8,29 +8,31 @@
     <meta name="author" content="techxxxy">
     <link rel="stylesheet" href="./css/icons.css">  <!-- Google Material Symbols https://fonts.google.com/icons -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/keyboard.css">
     <title>Korean German Keyboard with CSS</title>
 </head>
 <body>
-    <div class="container"> <!-- Removing this <div> element may cause the <li> items to overflow outside of the keyboard shape. -->
+<div>
+    <div class="kayboard-container"> <!-- Removing this <div> element may cause the <li> items to overflow outside of the keyboard shape. -->
         <h1>Korean-German Keyboard Layout</h1>
         <p>This provides a realistic visual representation of keyboard layouts
-             for both Korean and German languages, allowing users to understand 
-             and familiarize themselves with the arrangement of characters and symbols on the keyboard.</p>
-        <p>It is implemented using CSS and HTML without images. 
-            For any inquiries or feedback, feel free to reach out.</p>
-        <p>- Techxxxy</p>
+            for both Korean and German languages, allowing users to understand 
+            and familiarize themselves with the arrangement of characters and symbols on the keyboard.</p>
+       <p>It is implemented using CSS and HTML without images. 
+           For any inquiries or feedback, feel free to reach out.</p>
+       <p>- Techxxxy</p>
         <div class="keyboard">
             <ul class="funtion-keys">
                 <li class="esc"><div>esc</div></li>
-                <li><div><div class="symbol">&#9728;</div><div class="fn">F1 </div></div></li>
-                <li><div><div class="symbol">&#9788;</div><div class="fn">F2 </div></div></li>
+                <li><div><div class="symbol"><span class="material-symbols-outlined"> flare </span></div><div class="fn">F1 </div></div></li>
+                <li><div><div class="symbol"><span class="material-symbols-outlined"> wb_sunny </span></div><div class="fn">F2 </div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined"> view_module </span>   </div><div class="fn">F3 </div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined">search</span>  </div><div class="fn">F4 </div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined">mic</span>  </div><div class="fn">F5 </div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined"> dark_mode </span></div><div class="fn">F6 </div></div></li>
-                <li><div><div class="symbol">&#x23ee;  </div><div class="fn">F7 </div></div></li>
-                <li><div><div class="symbol">&#x23ef; </div><div class="fn">F8 </div></div></li>
-                <li><div><div class="symbol">&#x23ee; </div><div class="fn">F9 </div></div></li>
+                <li><div><div class="symbol"><span class="material-symbols-outlined"> skip_previous </span></div><div class="fn">F7 </div></div></li>
+                <li><div><div class="symbol"><span class="material-symbols-outlined"> play_pause </span> </div><div class="fn">F8 </div></div></li>
+                <li><div><div class="symbol"><span class="material-symbols-outlined"> skip_next </span> </div><div class="fn">F9 </div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined"> volume_mute </span>  </div><div class="fn">F10</div></div></li>
                 <li><div><div class="symbol"> <span class="material-symbols-outlined"> volume_down </span> </div><div class="fn">F11</div></div></li>
                 <li><div><div class="symbol"><span class="material-symbols-outlined"> volume_up </span>  </div><div class="fn">F12</div></div></li>
@@ -66,7 +68,7 @@
                 <li> <div class="qType"> <div class="ko2">ㅖ    </div> <div class="de1">P       </div> <div class="ko2">ㅔ</div> </div> </li>
                 <li>é &nbsp&nbsp ö</li>
                 <li> <div> <div class="upper-part">&excl;</div> <div class="upper-part">&quot;</div> </div> </li>
-                <li class="last-key"><div> <div class="upper-part">£</div> <div class="upper-part">$</div> </div></li>
+                <li class="last-key"><div> <div class="upper-part">£</div> <div class="lower-part">$</div> </div></li>
             </ul>
             <ul class="alpabets-asd printable">
                 <li class="capsLock"><div> <div class="upper-part">&#x2022;</div> <div class="lower-part">한/A</div></div></li>
@@ -105,7 +107,7 @@
                 <li class="command"><div class="commandL"><span class="material-symbols-outlined"> keyboard_command_key </span></div><div>command</div></li>
                 <li class="space-bar">&nbsp</li>
                 <li class="command"><div class="commandR"><span class="material-symbols-outlined"> keyboard_command_key </span></div> <div>command</div></li>
-                <li><div class="right-option"><span class="material-symbols-outlined"> keyboard_option_key </span></div><div> opiont</div></li>
+                <li><div class="right-option"><span class="material-symbols-outlined"> keyboard_option_key </span></div><div>opion</div></li>
                 <li><div class="arrow"><span class="material-symbols-outlined"> arrow_left </span></div></li>
                 <li class="upArrow"><span class="material-symbols-outlined"> arrow_drop_up </span></li>
                 <li class="downArrow"><span class="material-symbols-outlined">arrow_drop_down</span></li>               
