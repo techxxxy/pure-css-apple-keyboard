@@ -9,11 +9,10 @@ body {
     padding: 0px;
 
     overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping of content */
 
 }
 
 p {
     margin: 8px 0 0 0;
-    text-wrap: wrap;
+    max-width: 1073;
 }
