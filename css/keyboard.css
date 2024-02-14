@@ -25,7 +25,7 @@
 .keyboard ul {
     border: solid 1px transparent;
     list-style-type: none;
-    margin: 12px 0 0 12px;
+    margin: 12px 0px 0px 12px;
     padding: 0;
     height: 56px;
     line-height: 56px;
@@ -58,9 +58,9 @@ ul.number-keys {
 .keyboard .tab        { width: 97px; }
 .keyboard .fnLast     { border-top-right-radius: 26px; }
 .keyboard .last-key       { margin-right: 0; }
-.keyboard .backspace  { width: 97px; }
+.keyboard .backspace-key  { width: 97px; }
 .keyboard .capsLock   { width: 115px; }
-.keyboard .enter      { width: 114px; }
+.keyboard .enter-key      { width: 114px; }
 .keyboard .shift      { width: 79px; }
 .keyboard .right-shift { width: 150px; }
 .keyboard .lang       { border-bottom-left-radius: 24px;}
@@ -68,7 +68,7 @@ ul.number-keys {
 .keyboard .right      { border-bottom-right-radius: 20px; }
 .keyboard .command    { width: 79px;}
 
-li:active, .keydown, ul.printable li:not([class]):active {
+.keyboard li:active, .keydown, ul.printable li:not([class]):active {
     background: radial-gradient(at 40% 1%, #c4c4c4 5%, rgb(214, 217, 214) 70%);
     border: solid 1px #8e8e8e;
     margin: 2px 11px 0 0;
@@ -79,7 +79,7 @@ li:active, .keydown, ul.printable li:not([class]):active {
 }
 
 /* printable key has a groov */
-ul.printable li:not([class]) {
+.keyboard  ul.printable li:not([class]) {
     background: radial-gradient(at 40% 1%, rgb(213, 213, 213) 5%, #ffffff 70%);
 }
 
@@ -120,7 +120,7 @@ ul.number-keys > li > div { display: grid; grid-template-columns: repeat(1, 1fr)
 .upper-part {margin-top: 16px; line-height: 1px; text-align: center; }
 .lower-part {margin-top: 12px; line-height: 18px; text-align: center; }
 
-li.backspace>div { line-height: 12px; margin-top: 32px; margin-left: 58px; }
+li.backspace-key>div { line-height: 12px; margin-top: 32px; margin-left: 58px; }
 li.tab > div { line-height: 12px; margin-top: 34px; margin-right: 60px; }
 
 li.capsLock > div { display: grid; grid-template-columns: repeat(1, 1fr); }
